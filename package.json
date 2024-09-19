@@ -2,7 +2,7 @@
   "name": "form_email",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mark-ish.github.io/form-email/",
+  "homepage": "https://mark-ish.github.io/form-email",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@reduxjs/toolkit": "^2.2.7",
