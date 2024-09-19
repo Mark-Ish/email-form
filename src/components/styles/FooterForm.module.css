@@ -1,0 +1,10 @@
+.h6FooterForm a {
+  text-decoration: none;
+}
+
+.h6FooterForm a:link {
+  color: rgb(71, 71, 255);
+}
+.h6FooterForm a:visited {
+  color: rgb(141, 59, 255);
+}

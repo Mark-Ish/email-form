@@ -1,0 +1,30 @@
+.mainTitle {
+  margin: 0px 0px 0.35em;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.subTitle {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  color: rgb(103, 119, 136);
+}
+
+.subTitle a {
+  text-decoration: none;
+}
+
+.subTitle a:link {
+  color: rgb(71, 71, 255);
+}
+.subTitle a:visited {
+  color: rgb(141, 59, 255);
+}
+
+.headingStripe {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
