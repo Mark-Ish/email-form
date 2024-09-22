@@ -1,0 +1,14 @@
+body {
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(103, 156, 255);
+}
+
+* {
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 1.57;
+  margin: 0;
+  padding: 0;
+}

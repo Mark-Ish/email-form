@@ -1,0 +1,83 @@
+/* Label style */
+.labelAddress,
+.labelBio,
+.labelCity,
+.labelCountry,
+.labelEmail,
+.labelName {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Fields style */
+.fieldCity,
+.fieldCountry,
+.fieldEmail,
+.fieldName {
+  box-sizing: border-box;
+  height: 1.4375em;
+  width: 100%;
+  padding: 16.5px 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  outline: none;
+}
+.fieldAddress {
+  height: 1.4375em;
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  padding: 16.5px 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+.fieldBio {
+  resize: none;
+  height: 100%;
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  padding: 16.5px 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+/* Pseudo-element focus inputs */
+.fieldAddress:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+.fieldBio:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+.fieldCity:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+.fieldCountry:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+.fieldEmail:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+.fieldName:focus {
+  border: 2px solid rgb(55, 125, 255);
+}
+
+/* Pseudo-element hover inputs */
+.fieldAddress:hover {
+  border-color: black;
+}
+.fieldBio:hover {
+  border-color: black;
+}
+.fieldCity:hover {
+  border-color: black;
+}
+.fieldCountry:hover {
+  border-color: black;
+}
+.fieldEmail:hover {
+  border-color: black;
+}
+.fieldName:hover {
+  border-color: black;
+}
